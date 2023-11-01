@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h2{
+    padding: 2%;
+}
+
+img{
+    width: 40%;
+    height:40%;
+    padding-bottom: 1%;
+    border-radius: 10%;
+}
+#mainDiv img{
+    width: 50%;
+    height:50%;
+}
+
+p{
+    text-align: justify;
+    padding: 0 25% 2% 25%;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
