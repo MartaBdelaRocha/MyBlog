@@ -59,7 +59,7 @@ main{
     width: 80%;
     margin: 0 0 0 10%;    
 }
-h3{
+.lateral h3{
     background-color: rgb(0, 94, 164);
     color:white;
     text-align: center;
@@ -71,7 +71,21 @@ ul,ol{
 .negrita{
     font-weight: bolder;
 }
+.thankyou{
 
+    text-align: center;
+}
+.thankyou h1{
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+    
+}
+.thankyou img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
 footer{
     border:1px solid black;
     text-align: center;

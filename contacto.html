@@ -6,7 +6,7 @@
         <title>Marta's Blog</title>
         
         <link rel="stylesheet" href="css/common.css" type="text/css">
-        <link rel="stylesheet" href="css/article.css" type="text/css">
+        <link rel="stylesheet" href="css/contact.css" type="text/css">
     </head>
     <body>
         
@@ -19,9 +19,61 @@
         </header>
         <main>
             
-            <article class="contenedor">
-                                     
-            </article>
+            <div class="contacto">
+                    
+                    <h1>Contacto</h1>
+              
+                    <div class="formulario">  
+                        <form action="thankyou.html" method="post">       
+              
+                          
+                              <p>
+                                <label for="nombre">Nombre
+                                <span class="obligatorio">*</span>
+                                </label>
+                                  <input type="text" name="nom" id="nombre" required="obligatorio" placeholder="Nombre">
+                              </p>
+                              <p>
+                                <label for="nombre">Apellidos
+                                <span class="obligatorio">*</span>
+                                </label>
+                                  <input type="text" name="ape" id="apellidos" required="obligatorio" placeholder="Apellidos">
+                              </p>
+                              <p>
+                                <label for="email">Email
+                                <span class="obligatorio">*</span>
+                                </label>
+                                <input type="email" name="correo_e" id="email" required="obligatorio" placeholder="Correo electrónico">
+                              </p>
+                          
+                              <p>
+                                <label for="telefone">Teléfono</label>
+                                <input type="tel" name="tlf" id="telefono" placeholder="Teléfono móvil">
+                              </p>       
+                            
+                              <p>
+                                <label for="asunto">Asunto
+                                  <span class="obligatorio">*</span>
+                                </label>
+                                  <input type="text" name="subject" id="asunto" required="obligatorio" placeholder="Motivo">
+                              </p>    
+                            
+                              <p>
+                                <label for="mensaje">Mensaje
+                                  <span class="obligatorio">*</span>
+                                </label>                     
+                                <textarea name="message" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                              </p>                    
+                            
+                              <button type="submit" name="formSubmit" id="enviar"><p>Enviar</p></button>
+              
+                              <p class="nota">
+                                <span class="obligatorio"> * </span>los campos son obligatorios.
+                              </p>          
+                          
+                        </form>
+                  </div>                 
+            </div>
         </main>
         <footer>
             <div>&copy; 2023 <a href="https://www.linkedin.com/in/martabarbeitodelarocha/" target="_blank">Marta Barbeito</a></div>
